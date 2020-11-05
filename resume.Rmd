@@ -52,6 +52,7 @@ Bachelor of Science in Neuroscience and Behavioral Biology
 - Processed samples and investigated the genetic mutations of congenital myasthenic syndrome clinical cases
 - Performed point mutation experiments using DNA sequencing, peptide and protein assays, PCR, large and mini prep on cell cultures to identify the functional asymmetry of ACh receptor cys-loop aspartates
 - Developed and implemented a new data classification system to organize patient data and mutation clone storage 
+- Co-authored two manuscripts on mutations causing congenital myasthenia
 
 
 ### Leadership & Community Involvement 

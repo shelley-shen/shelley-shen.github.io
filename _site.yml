@@ -4,7 +4,9 @@ navbar:
   title: "Home"
   right:
     - text: "Resume"
-      href: about.html
+      href: resume.html
+    - text: "Instacart Dashboard"
+      href: dashboard.html
     - icon: fa-linkedin fa-lg
       href: https://linkedin.com/in/shelley-shen
     - icon: fa-envelope fa-lg
