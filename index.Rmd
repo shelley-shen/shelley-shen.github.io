@@ -4,10 +4,26 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: paper
 ---
 
-# This is Shelley's awesome website
+### Hello! 
 
-![](https://media.giphy.com/media/zz49TLnbLJdXq/giphy.gif)
+MPH Candidate, Columbia University Mailman School of Public Health
+
+<img src="images/headshot.jpg" height=50%, width=50%>
+
+
+### Hometown
+Rochester, MN
+
+### Research interests
+A current graduate student studying epidemiology, I am interested in the impact of urban design on chronic disease outcomes and health disparities. 
+
+### Personal facts
+I am a modern dancer with a love of contemporary art, hiking, and cooking.
+
+### Contact information
+Email: shelley.shen@columbia.edu
+
 

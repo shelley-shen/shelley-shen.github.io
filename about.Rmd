@@ -1,0 +1,109 @@
+---
+title: "Resume"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+### Education
+
+**Columbia University Mailman School of Public Health** *Expected May 2021*
+
+Epidemiology MPH, Health Policy & Practice Certificate 
+
+**Emory University** *May 2017*
+
+Bachelor of Science in Neuroscience and Behavioral Biology 
+
+
+### Research & Professional Experience
+
+**American Heart Association Get with the Guidelines COVID-19 Registry**
+
+- Abstracted charts from Epic EHR system at Columbia University Medical Center/New York Presbyterian
+- Entered data for AHA's nation-wide registry focused on the cardiovascular and neurological complications of COVID-19
+
+**Columbia University Institute of Human Nutrition**
+*Research Assistant & Program Assistant*
+
+- Assisting with extensive review of previously published weight bias surveys for development of new comprehensive weight bias measurement tool and psychometrically-sound weight bias reduction intervention among students and clinicians
+-	Coding previous weight bias surveys for analysis of various key cognitive and affective dimensions of weight bias
+-	Comparing new weight bias measurement tool with other gold standards of bias measurement tools 
+- Analyze and organize 900+ alumni survey data to maintain updated database and utilize for recruitment and alumni events
+- Create statistical graphics and design promotional material for recruitment brochures, presentations, videos, and website
+- Communicate between the office and recommenders and assist with end-of-year presentations
+
+
+
+**Thomas Eye Group**
+*Medical Assistant & Technician*
+
+- Documented doctor-patient examinations for ophthalmologists serving up to 60 patients per day, created diagnoses and plans, facilitated patient education, and maintained steady patient flow in fast-paced environment
+- Cross-trained and performed special testing and monitored test reviews and patient data to ensure complete patient workup, streamlining treatment decisions for overseeing ophthalmologist, resulting in improved patient experience 
+- Meticulously analyzed patient EHR charts to improve consistency and quality, guaranteeing clinic compliance with government Merit-based Incentive Payment System (MIPS) protocol and guidelines
+- Compiled and submitted examination data and appeals to ensure successful patient and office insurance claims and appropriate patient medication coverage by insurance
+- Assisted in the training and management of new staff members and development of training material
+
+**Mayo Clinic**
+*Undergraduate Researcher in the Department of Neurology*
+
+- Processed samples and investigated the genetic mutations of congenital myasthenic syndrome clinical cases
+- Performed point mutation experiments using DNA sequencing, peptide and protein assays, PCR, large and mini prep on cell cultures to identify the functional asymmetry of ACh receptor cys-loop aspartates
+- Developed and implemented a new data classification system to organize patient data and mutation clone storage 
+
+
+### Leadership & Community Involvement 
+
+**Columbia Healthcare Ventures** *Vice President of Operations & Finance*
+
+- Implement operational strategies to improve brand power and efficiency of the organization 
+- Spearhead development of multi-disciplinary design workshops and notable speaker panels
+- Collaborate with team members to write, design, and distribute bi-weekly newsletter regarding COVID-19 innovations
+- Maintain accurate financial data and implement strategies to ensure financial sustainability of the organization 
+-	Assist in management of identifying and cultivating relationships with mentors and entrepreneurs
+
+
+**COVID-19 Student Service Corps**
+*Volunteer*
+
+- Review and digest academic literature and lay-media articles for rapid dissemination among CUIMC staff and students
+- Design and organize accessible information materials to provide to patients and publish online
+
+
+**Creative1836**
+*Co-founder, Strategist, Designer*
+
+- Established Emory’s premier creative consultancy partnering with student groups to create marketing campaigns, provide web and graphic design services, and build brands and visions
+- Designed and directed a multi-media project featuring interviews with founders and leaders of student organizations focused on their beginnings, creativity and ideologies behind their organizations
+- Facilitated ideation sessions with student campus leaders to address campus issues and directed inter-campus bimonthly workshops to challenge students with innovative, design thinking 
+- Competed in business and design challenges including Toyota & Net Impact Mobility Challenge and HackATL
+
+
+**Emory Students Against Modern-Day Slavery (SAMS)**
+*Volunteer Coordinator*
+
+- Organized four campus-wide exhibits, discussions and screenings to educate the Emory community and raise awareness concerning the fight against human trafficking in metro-Atlanta and around the world
+-	Piloted 2 service projects to facilitate community engagement in first-hand experiences with modern-day slavery in Atlanta
+
+
+### Publications
+Shen, X. M., Brengman, J. M., **Shen, S.**, Durmus, H., Preethish-Kumar, V., Yuceyar, N., Vengalil, S., Nalini, A., Deymeer, F., Sine, S. M., & Engel, A. G. (2018). Mutations causing congenital myasthenia reveal principal coupling pathway in the acetylcholine receptor ε-subunit. JCI insight, 3(2), e97826. doi: 10.1172/jci.insight.97826.
+
+Shen XM, Di L, **Shen S**, Zhao Y, Neumeyer AM, Selcen D, Sine SM, Engel AG. A novel fast-channel myasthenia caused by mutation in β subunit of AChR reveals subunit-specific contribution of the intracellular M1-M2 linker to channel gating. Exp Neurol. 2020 Sep;331:113375. doi: 10.1016/j.expneurol.2020.113375. Epub 2020 Jun 3. PMID: 32504635; PMCID: PMC7483818.
+
+
+### Skills
+
+**Languages:** Mandarin Chinese (advanced), Spanish (beginner)
+
+**Programs:** 
+
+- Microsoft Office (Proficient) 
+- SAS (Moderate Proficiency) 
+- RStudio (Moderate Proficiency) 
+- SAS (Beginner Proficiency/Learning) 
+- EHR Systems (Epic, CompuLink, AllScripts) 
+- Adobe Photoshop (Moderate Proficiency)
+
