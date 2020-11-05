@@ -8,6 +8,8 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -15,7 +17,7 @@ library(flexdashboard)
 ```
 
 
-```{r}
+```{r include=FALSE}
 data("instacart")
 
 instacart = 
@@ -28,7 +30,7 @@ Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
-```{r}
+```{r include=FALSE}
 instacart %>% 
   mutate(
     order_dow = recode(order_dow, "0" = "Sunday", "1" = "Monday", "2" = "Tuesday", "3" = "Wednesday", "4" = "Thursday", "5" = "Friday", "6" = "Saturday"),
@@ -60,7 +62,7 @@ Column {data-width=350}
 
 ### Chart B
 
-```{r}
+```{r include=FALSE}
 instacart %>%
   count(department) %>% 
   filter(department != "missing") %>% 
@@ -76,7 +78,7 @@ instacart %>%
 
 ### Chart C
 
-```{r}
+```{r include=FALSE}
 instacart %>% 
   filter(department == "produce") %>% 
   mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>%
