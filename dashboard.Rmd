@@ -15,8 +15,6 @@ library(flexdashboard)
 ```
 
 
-## Instacart
-
 ```{r}
 data("instacart")
 
@@ -26,22 +24,10 @@ instacart =
   sample_n(50000)
 ```
 
-## Orders by Department
+Column {data-width=650}
+-----------------------------------------------------------------------
 
-```{r}
-instacart %>%
-  count(department) %>% 
-  mutate(
-    department = fct_reorder(department, n)) %>% 
-  plot_ly(
-    x = ~department, y = ~n, color = ~department, type = "bar", colors = "viridis") %>% 
-  layout(
-    title = "Orders by Department",
-    xaxis = list(title = "Department"),
-    yaxis = list(title = "Number of orders"))
-```
-
-## Orders by Time of Day
+### Chart A
 ```{r}
 instacart %>% 
   mutate(
@@ -58,6 +44,7 @@ instacart %>%
     y = ~hourly_orders, 
     color = ~order_dow, 
     type = "scatter", 
+    mode = "line",
     text = ~text_label,
     colors = "viridis") %>% 
   layout(
@@ -66,5 +53,40 @@ instacart %>%
     yaxis = list(title = "Number of Orders")
   )
 ```
+
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>%
+  count(department) %>% 
+  filter(department != "missing") %>% 
+  mutate(
+    department = fct_reorder(department, n)) %>% 
+  plot_ly(
+    x = ~department, y = ~n, color = ~department, type = "bar", colors = "magma") %>% 
+  layout(
+    title = "Orders by Department",
+    xaxis = list(title = "Department"),
+    yaxis = list(title = "Number of orders"))
+```
+
+### Chart C
+
+```{r}
+instacart %>% 
+  filter(department == "produce") %>% 
+  mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>%
+  plot_ly(x = ~aisle, y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") %>% 
+  layout(
+    title = "When shoppers buy their produce", 
+    xaxis = list(title = "Produce Aisle"),
+    yaxis = list(title = "Hour of Day")
+  )
+```
+
 
 
