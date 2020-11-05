@@ -30,7 +30,7 @@ Column {data-width=650}
 -----------------------------------------------------------------------
 
 ### Chart A
-```{r include=FALSE}
+```{r echo=FALSE, warning=FALSE}
 instacart %>% 
   mutate(
     order_dow = recode(order_dow, "0" = "Sunday", "1" = "Monday", "2" = "Tuesday", "3" = "Wednesday", "4" = "Thursday", "5" = "Friday", "6" = "Saturday"),
@@ -62,7 +62,7 @@ Column {data-width=350}
 
 ### Chart B
 
-```{r include=FALSE}
+```{r echo=FALSE}
 instacart %>%
   count(department) %>% 
   filter(department != "missing") %>% 
@@ -78,7 +78,7 @@ instacart %>%
 
 ### Chart C
 
-```{r include=FALSE}
+```{r echo=FALSE}
 instacart %>% 
   filter(department == "produce") %>% 
   mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>%
