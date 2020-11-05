@@ -11,7 +11,7 @@ output:
 
 MPH Candidate, Columbia University Mailman School of Public Health
 
-<img src="images/headshot.jpg" height=50%, width=50%>
+<img src="images/headshot2.jpg" height=50%, width=50%>
 
 
 ### Hometown

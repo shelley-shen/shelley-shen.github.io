@@ -1,0 +1,21 @@
+---
+title: "Plotly Dashboard"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: paper
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+
+### Instacart
+
+
+
+
