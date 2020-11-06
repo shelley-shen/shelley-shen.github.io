@@ -23,13 +23,13 @@ data("instacart")
 instacart = 
   instacart %>%
   select(-add_to_cart_order, -eval_set, -order_number, -days_since_prior_order, -aisle_id, -department_id) %>% 
-  sample_n(50000)
+  sample_n(500000)
 ```
 
-Column {data-width=650}
+Column {data-width=625}
 -----------------------------------------------------------------------
 
-### Chart A
+### Orders by Time of Day
 ```{r echo=FALSE, warning=FALSE}
 instacart %>% 
   mutate(
@@ -50,17 +50,15 @@ instacart %>%
     text = ~text_label,
     colors = "viridis") %>% 
   layout(
-    title = "Orders by Time of Day",
     xaxis = list(title = "Hour of Day"),
-    yaxis = list(title = "Number of Orders")
-  )
+    yaxis = list(title = "Number of Orders"))
 ```
 
 
-Column {data-width=350}
+Column {data-width=375}
 -----------------------------------------------------------------------
 
-### Chart B
+### Orders by Department
 
 ```{r echo=FALSE}
 instacart %>%
@@ -71,12 +69,11 @@ instacart %>%
   plot_ly(
     x = ~department, y = ~n, color = ~department, type = "bar", colors = "magma") %>% 
   layout(
-    title = "Orders by Department",
     xaxis = list(title = "Department"),
     yaxis = list(title = "Number of orders"))
 ```
 
-### Chart C
+### When shoppers buy their produce
 
 ```{r echo=FALSE}
 instacart %>% 
@@ -84,10 +81,8 @@ instacart %>%
   mutate(aisle = fct_reorder(aisle, order_hour_of_day)) %>%
   plot_ly(x = ~aisle, y = ~order_hour_of_day, color = ~aisle, type = "box", colors = "viridis") %>% 
   layout(
-    title = "When shoppers buy their produce", 
     xaxis = list(title = "Produce Aisle"),
-    yaxis = list(title = "Hour of Day")
-  )
+    yaxis = list(title = "Hour of Day"))
 ```
 
 
