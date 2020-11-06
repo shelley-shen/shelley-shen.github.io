@@ -22,8 +22,7 @@ data("instacart")
 
 instacart = 
   instacart %>%
-  select(-add_to_cart_order, -eval_set, -order_number, -days_since_prior_order, -aisle_id, -department_id) %>% 
-  sample_n(500000)
+  select(-add_to_cart_order, -eval_set, -order_number, -days_since_prior_order, -aisle_id, -department_id) 
 ```
 
 Column {data-width=625}
