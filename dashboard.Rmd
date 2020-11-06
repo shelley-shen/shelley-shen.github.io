@@ -2,14 +2,14 @@
 title: "Instacart Dashboard"
 output: 
   flexdashboard::flex_dashboard:
+    navbar: 
+      - { title: "Home", href: "https://shelley-shen.github.io/index.html", align: left}
     orientation: columns
     vertical_layout: fill
     source: embed
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
